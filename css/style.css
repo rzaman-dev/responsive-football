@@ -42,3 +42,24 @@ main{
     font-weight: 400;
     color: #c9c8c8;
 }
+/* -------------------------
+    footer area start 
+------------------------*/
+
+.footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-main>img{
+    width: 475px;
+}
+.social-logos img{
+    width: 32px;
+}
+.social-logos{
+    width: 170px;
+    height: 32px;
+}
