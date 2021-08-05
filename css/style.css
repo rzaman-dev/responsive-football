@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+*{
+    margin: 0;
+}
 body{
     /* background-color: #e2ebeb; */
     font-family: 'Poppins', sans-serif;
@@ -9,6 +11,43 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* --------------------
+    hero area start 
+    ------------------ */
+.hero-area{
+    background-color: #2D25A0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+}
+
+.hero-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.half-width{
+    width: 400px;
+    margin-left: 50px;
+
+}
+#big-text{
+    color: #ffff;
+    font-size: 50px;
+}
+.big-title a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #e02c6d;
+    padding: 12px 40px;
+
+}
+.half-width img{
+    width: 456px;
 }
 /* -----------------------
     player area start
