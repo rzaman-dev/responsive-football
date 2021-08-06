@@ -79,8 +79,8 @@ main{
     
 }
 .player{
-    width: 250px;
-    height: 350px;
+    width: 330px;
+    height: 474px;
     padding: 12px;
     box-shadow: 1px 1px 10px -5px;
     display: flex;
