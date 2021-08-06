@@ -44,13 +44,16 @@ main{
     text-decoration: none;
     color: #ffff;
     background-color: #e02c6d;
-    padding: 12px 30px;
+    padding: 12px 25px;
 
+}
+#hero-link{
+    margin-top: 17px;
 }
 /* button hover transition */
 .big-title a:hover{
-    padding:10px 40px;
-    transition: padding 1s;
+    padding:12px 30px;
+    transition: padding 0.5s;
 }
 .half-width img{
     width: 456px;
@@ -117,7 +120,7 @@ main{
     background-color: #fffF;
 }
 .fa-btc, .fa-cc-visa, .fa-paypal{
-    font-size: 110px;
+    font-size: 90px;
     color: #e02c6d;
 }
 .payment-option-text{
@@ -132,10 +135,11 @@ main{
     Subcription area
  ----------------------  */
 
-#offer-text{
+.offer-text{
     text-align: center;
     color: dimgray;
     font-size: 35px;
+    margin-bottom: 30px;
 }
 
 .input-form{
@@ -176,10 +180,16 @@ main{
 .footer-main>img{
     width: 475px;
 }
-.social-logos img{
-    width: 32px;
+
+/* font awesome icons */
+.social-icon{
+    font-size: 30px;
+    color: #b6b6b6;
+    margin-right: 10px;
+
 }
 .social-logos{
     width: 170px;
     height: 32px;
+    margin-bottom: 20px;
 }
