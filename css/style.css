@@ -20,6 +20,7 @@ main{
     background-color: #2D25A0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 500px;
     
 }
@@ -56,8 +57,9 @@ main{
     margin-top: 63px;
 }
 /* hero img transition */
+
 .half-width img:hover{
-    transform: scale(0.9);
+    transform: scale(0.9) skewY(8deg);
     transition: transform 1s;
 }
 /* -----------------------
@@ -92,6 +94,74 @@ main{
     font-weight: 400;
     color: #c9c8c8;
 }
+
+/*-----------------------
+     Packages Area 
+----------------------*/
+.packages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 27px;
+}
+.pack{
+    width: 220px;
+    height: 220px;
+    padding: 12px;
+    box-shadow: 1px 1px 10px -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #fffF;
+}
+.fa-btc, .fa-cc-visa, .fa-paypal{
+    font-size: 110px;
+    color: #e02c6d;
+}
+.payment-option-text{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #e02c6d;
+}
+
+
+
+/*---------------------
+    Subcription area
+ ----------------------  */
+
+#offer-text{
+    text-align: center;
+    color: dimgray;
+    font-size: 35px;
+}
+
+.input-form{
+    margin-left: 10px;
+    padding: 12px 115px;
+    border: 2px solid #e02c6d;
+    border-radius: 4px;
+}
+
+.click-button{
+    text-decoration: none;
+     color: #ffff;
+     border: 1px solid transparent;
+     font-size: 16px;
+     font-weight: 600;
+     padding: 12px 40px;
+     border-radius: 10px;
+     background-color: #e02c6d;
+     
+}
+
+.mail-wrap{
+    margin: 40px 20px;
+    padding: 70px 0px;
+}
+
 /* -------------------------
     footer area start 
 ------------------------*/
