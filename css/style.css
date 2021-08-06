@@ -85,7 +85,6 @@ main{
     box-shadow: 1px 1px 10px -5px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     background-color: #fffF;
 }
 .thumbnail img{
@@ -116,7 +115,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* justify-content: center; */
     background-color: #fffF;
 }
 .fa-btc, .fa-cc-visa, .fa-paypal{
@@ -167,10 +165,7 @@ main{
     display: flex;
 }
 
-/* .mail-wrap{
-    margin: 40px 20px;
-    padding: 70px 0px;
-} */
+
 
 /* -------------------------
     footer area start 
@@ -235,7 +230,9 @@ main{
         font-size: 30px;
     
     }
-    /* players area & Pakage area */
+    /* ---------------------
+        players area & Pakage area 
+        -----------------------*/
     
     .players, .packages{
         display: grid;
@@ -251,8 +248,6 @@ main{
         justify-content: center;
         align-items: center;
         width: 98%;
-        /* padding: 0px 8px;
-        margin-left: 62px; */
     }
     .form-fill>.input-form {
         margin-left: 10px;
