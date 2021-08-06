@@ -135,19 +135,21 @@ main{
     Subcription area
  ----------------------  */
 
-.offer-text{
+.offer-text,h1{
     text-align: center;
     color: dimgray;
     font-size: 35px;
     margin-bottom: 30px;
 }
 
-.input-form{
+
+.form-fill>.input-form{
     margin-left: 10px;
     padding: 12px 115px;
     border: 2px solid #e02c6d;
     border-radius: 4px;
 }
+
 
 .click-button{
     text-decoration: none;
@@ -158,13 +160,17 @@ main{
      padding: 12px 40px;
      border-radius: 10px;
      background-color: #e02c6d;
+     margin-left: 10px;
      
 }
+.mail-content{
+    display: flex;
+}
 
-.mail-wrap{
+/* .mail-wrap{
     margin: 40px 20px;
     padding: 70px 0px;
-}
+} */
 
 /* -------------------------
     footer area start 
@@ -192,4 +198,71 @@ main{
     width: 170px;
     height: 32px;
     margin-bottom: 20px;
+}
+
+/* --------------------------
+    Media Query 
+--------------------------*/
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    body{
+        /* padding: 0 5px; */
+    }
+    /* header area */
+    .hero-area{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    main{
+        width: 100%;
+    }
+    .hero-wrap{
+        flex-direction: column;
+    }
+    .half-width{
+        width: 300px;
+    }
+    .half-width img{
+        width: 80%;
+    }
+    #big-text{
+        font-size: 30px;
+    
+    }
+    /* players area & Pakage area */
+    
+    .players, .packages{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+
+    }
+    /* subscribtion area */
+    .mail-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        /* padding: 0px 8px;
+        margin-left: 62px; */
+    }
+    .click-button{
+        margin-top: 10px;
+    }
+
+    /* footer area */
+    .footer-main img{
+        width: 70%;
+    }
+    .footer-main{
+        width: 285px;
+    }
+
 }
